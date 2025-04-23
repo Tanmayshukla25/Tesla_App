@@ -42,34 +42,10 @@
   height: 100vh;           
 }
 
-.one {
-  width: 1px !important;
-  height: 1px !important;
-}
-.one img {
-  position: absolute !important;
-  width: 100% !important;
-  height: 100% !important;
-  bottom: 0px !important;
-  right: 10px !important;
-  animation: upDown 2s ease-in-out infinite !important;
-}
-
-@keyframes upDown {
-  0% {
-    transform: translateY(0px);
-  }
-
-  50% {
-    transform: translateY(-20px);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
+.one img{
+  display: none !important;
 }
 }
-
 #navBarLi {
   position: relative;
 }
@@ -156,7 +132,7 @@
   width: 100% !important;
   height: 100% !important;
   right: 10px !important;
-  animation: upDown 2s ease-in-out infinite !important;
+  animation: upDown 2s ease-in-out infinite;
 }
 
 @keyframes upDown {
