@@ -37,7 +37,7 @@
 }
 #btnParent {
   display: flex;
-  justify-content: center; 
+  justify-content: center; /* Center horizontally */
   align-items: center;     
   height: 100vh;           
 }
@@ -273,10 +273,9 @@
 }
 
 #btnParent {
-  display: flex;
-  justify-content: center; 
-  align-items: center;     
-  height: 100vh;           
+
+  text-align: center;
+  margin-top: 25%;
 }
 
 #btn1 {
