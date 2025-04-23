@@ -53,21 +53,21 @@ function App() {
         />
         <Section
           heading="Solar Panels"
-          tagline="Order online for touchless delivery"
-          leftBtn="Custom Order"
-          rightBtn="Existing Inventory"
+          tagline="Lower Cost Solar Panels in India"
+          leftBtn="ORDER NOW"
+          rightBtn="LEARN MORE"
           bg={ModelSolarPanles}
         />
         <Section
           heading="Solar Panels"
-          tagline="Order online for touchless delivery"
-          leftBtn="Custom Order"
-          rightBtn="Existing Inventory"
+          tagline="produce Clean Energy your roof"
+          leftBtn="ORDER NOW"
+          rightBtn="LEARN MORE"
           bg={ModelSolarRoof}
         />
         <Section
           heading="Accessories"
-          leftBtn="Custom Order"
+          leftBtn="ORDER NOW"
           bg={Accessories}
         />
 
