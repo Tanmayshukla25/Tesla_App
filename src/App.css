@@ -5,6 +5,68 @@
   font-family: "Poppins";
 }
 
+@media (max-width: 768px) {
+  #navBarLi:nth-of-type(1),
+  #navBarLi:nth-of-type(2) {
+    display: none;
+  }
+
+  #ShowDataBtn {
+    display: block;
+  }
+}
+@media screen and (min-width:320px) and (max-width:570px){
+  #Heading h1 {
+    font-size: 20px !important;
+    padding-top: 20% !important;
+    
+}
+#navBar{
+  padding: 10px !important;
+}
+#Heading p{
+  font-size: 12px;
+}
+#btn1, #btn2 {
+  padding: 10px;
+  margin: 5px;
+  width: 150px;
+  border-radius: 20px;
+  border: unset;
+  font-size: 10px;
+}
+#btnParent {
+  text-align: center;
+  margin-top: 65% !important;
+}
+
+.one {
+  width: 5px !important;
+  height: 5px !important;
+}
+.one img {
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  right: 10px;
+  animation: upDown 2s ease-in-out infinite;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+}
+
 #navBarLi {
   position: relative;
 }
