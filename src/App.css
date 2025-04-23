@@ -31,9 +31,22 @@
 #btnParent {
   position: relative;
 }
+@keyframes slideIn {
+  from {
+    right: -250px;
+  }
+  to {
+    right: 0;
+  }
+}
 
-#Menubar {
-  transform: translateX(0);
+@keyframes slideOut {
+  from {
+    right: 0;
+  }
+  to {
+    right: -250px;
+  }
 }
 
 #MenuBar {
@@ -42,22 +55,17 @@
   background-color: white;
   padding: 40px;
   position: absolute;
-   right: 0px;
-
-  animation: transform 1s  ease-in-out;
+  right: 0;
+  top: 0;
 }
 
 
-@keyframes transform {
-  0% {
-    top: 0;
-    right: -250px;
-  }
-  
-  100% {
-    top: 0;
-    right: 0px;
-  }
+.menu-slide-in {
+  animation: slideIn 1s forwards;
+}
+
+.menu-slide-out {
+  animation: slideOut 1s forwards;
 }
 
 
