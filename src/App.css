@@ -43,15 +43,16 @@
 }
 
 .one {
-  width: 5px !important;
-  height: 5px !important;
+  width: 1px !important;
+  height: 1px !important;
 }
 .one img {
-  position: absolute;
+  position: absolute !important;
   width: 100% !important;
   height: 100% !important;
-  right: 10px;
-  animation: upDown 2s ease-in-out infinite;
+  bottom: 0px !important;
+  right: 10px !important;
+  animation: upDown 2s ease-in-out infinite !important;
 }
 
 @keyframes upDown {
@@ -151,11 +152,11 @@
 }
 
 .one img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  right: 10px;
-  animation: upDown 2s ease-in-out infinite;
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  right: 10px !important;
+  animation: upDown 2s ease-in-out infinite !important;
 }
 
 @keyframes upDown {
