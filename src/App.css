@@ -101,7 +101,7 @@
 }
 
 #Model3Section {
-  background-image: url(./images/images/model-3.jpg);
+  /* background-image: url(./images/images/model-3.jpg); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -110,7 +110,7 @@
 }
 
 #modelY-Section {
-  background-image: url(./images/images/model-y.jpg);
+  /* background-image: url(./images/images/model-y.jpg); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -118,7 +118,7 @@
 }
 
 #modelS-Section {
-  background-image: url(./images/images/model-s.jpg);
+  /* background-image: url(./images/images/model-s.jpg); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -126,7 +126,7 @@
 }
 
 #modelX-Section {
-  background-image: url(./images/images/model-x.jpg);
+  /* background-image: url(./images/images/model-x.jpg); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -134,7 +134,7 @@
 }
 
 #SolarPanels-Section {
-  background-image: url(./images/images/solar-panel.jpg);
+  /* background-image: url(./images/images/solar-panel.jpg); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -142,7 +142,7 @@
 }
 
 #SolarRoof-Section {
-  background-image: url(./images/images/solar-roof.jpg);
+  /* background-image: url(./images/images/solar-roof.jpg); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -150,7 +150,7 @@
 }
 
 #Accessories-Section {
-  background-image: url(./images/images/accessories.jpg);
+  /* background-image: url(./images/images/accessories.jpg); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
