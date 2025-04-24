@@ -19,7 +19,7 @@ function Section(props) {
           )} */}
 
           {props.image && (
-            <div className="one">
+            <div className="scrollIcons">
               <img src={props.image} alt="" />
             </div>
           )}

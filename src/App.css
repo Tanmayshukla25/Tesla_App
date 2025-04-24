@@ -37,12 +37,12 @@
 }
 #btnParent {
   display: flex;
-  justify-content: center; /* Center horizontally */
+  justify-content: center; 
   align-items: center;     
   height: 100vh;           
 }
 
-.one img{
+.scrollIcons img{
   display: none !important;
 }
 }
@@ -82,7 +82,7 @@
   height: 100vh;           
 }
 
-.one img{
+.scrollIcons img{
   display: none !important;
 }
 }
@@ -162,12 +162,12 @@
   padding: 10px 0;
 }
 
-.one {
+.scrollIcons {
   width: 50px;
   height: 50px;
 }
 
-.one img {
+.scrollIcons img {
   position: absolute !important;
   width: 100% !important;
   height: 100% !important;
